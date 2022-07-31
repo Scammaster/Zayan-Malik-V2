@@ -79,7 +79,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [[
 
-                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/Movie_Stars_Official"),
+                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/Moviestarofficle"),
                     ]]
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
@@ -113,11 +113,11 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("ᴀɴʏ ʜᴇʟᴘ", url="https://t.me/Movie_Stars_Official")
+                        InlineKeyboardButton("ᴀɴʏ ʜᴇʟᴘ", url="https://t.me/Moviestarofficle")
                     ],
                     [
                         InlineKeyboardButton("ᴍʏ ᴅᴇᴠ", url="https://t.me/IRONMAN_OP"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇᴢ", url="https://t.me/Movie_Stars_Studios")
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇᴢ", url="https://t.me/THE_SCAMMASTER")
                     ],
                     [
                         InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
@@ -210,7 +210,7 @@ async def bot_info(bot, message):
     buttons = [
         [                   
             InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/IRONMAN_OP'),
-            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/Movie_Stars_Official'),
+            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/Moviestarofficle'),
         ]
         ]
     await message.reply(text="<b>Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/IRONMAN_OP'>Aɴᴜʀᴀɢ</a>\nLᴀɴɢᴜᴀɢᴇ : <code>Pʏᴛʜᴏɴ 3</code>\nLɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>\nUᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/Movie_Stars_Studios'>Cʟɪᴄᴋ ᴍᴇ 👈</a>\nDᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/cloud'>Mᴏɴɢᴏ ᴅʙ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
